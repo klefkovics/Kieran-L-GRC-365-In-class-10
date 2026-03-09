@@ -3,3 +3,94 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+html {
+  background-color: rgb(34, 58, 77);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: rgb(255, 228, 121);
+  line-height: 1.2;
+}
+
+header {
+  width: 100%;
+  text-transform: uppercase;
+  text-align: right;
+  position: fixed;
+  display: inline;
+  padding: 15px;
+  letter-spacing: 2px;
+  z-index: 1;
+  background-color: rgb(255, 228, 121);
+}
+
+header a {
+  padding: 0 15px;
+  color: darkcyan;
+  text-decoration: none;
+}
+
+.title {
+ font-weight: bold;
+ float: left;
+}
+
+main {
+  position: relative;
+  top: 90px;
+  width: 500px;
+  margin-left: 25px;
+}
+
+h1 {
+  font-size: large;
+  font-weight: bold;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.hero-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.sticky-container {
+  width: 90vw;
+  position: sticky;
+  top: 100px;
+}
+
+.sticky-image {
+  width: 300px;
+  height: auto;
+  float: right;
+}
+
+.story {
+  margin-top: 30px;
+  text-align: justify;
+  padding: 10px 0px;
+}
+
+em {
+  font-style: italic;
+  color: coral;
+}
+
+strong {
+  font-weight: bold;
+  color: rgb(23, 212, 64);
+}
+
+a {
+  color: cyan;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #8f6d90;
+  text-decoration: none;
+}
+
